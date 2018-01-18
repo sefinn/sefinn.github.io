@@ -1,11 +1,77 @@
 <!DOCTYPE html>
 <html>
 
+	<head>
+	
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+	</head>
 
 	<header>
-		<nav>
+
+
+
+
+
+		<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+		  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <a class="navbar-brand" href="#">Welcome</a>
+		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+			  <li class="nav-item active">
+				<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">About</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Experience</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Projects</a>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Contact
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				  <a class="dropdown-item" href="#">Email</a>
+				  <a class="dropdown-item" href="#">Phone</a>
+				</div>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">LinkedIn</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">GitHub</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Resume</a>
+			  </li>
+			</ul>
+		  </div>
+		</nav>
+
+		<!--<nav>
 			
-			<!-- <h1>Sterling Finn</h1> -->
+			<!-- <h1>Sterling Finn</h1> 
 
 			<ul>
 			<li><a href="index.html" target="_blank">Home</a></li>
@@ -14,14 +80,26 @@
 			<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
-
+		-->
 
 	</header>
-
+	<!--
 	<div class="row">
 		<div class="col">col1</div>
 		<div class="col">col2</div>
 		<div class="col">col3</div>
+	</div>
+
+	-->
+
+	<div class="jumbotron">
+	  <h1 class="display-3">My name is Sterling Finn</h1>
+	  <p class="lead">This is my website.</p>
+	  <hr class="my-4">
+	  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+	  <p class="lead">
+		<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+	  </p>
 	</div>
 
 	
@@ -43,7 +121,7 @@
 
 
 		
-		<header class="navbar" role="banner">
+		<!--<header class="navbar" role="banner">
 			<div class="container">
 				<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
 				  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -94,9 +172,9 @@
 				<li>item 1</li>
 				<li><a href="page2.html">check out page 2</a></li>
 			</ul> -->
-			<img src="https://lh3.googleusercontent.com/proxy/CI3EefSviqjC6lh3eQ6bBk6aqs2fc8shen6aU65A2V7JjfH2bVoJUCVNO2Phz6ix_0iLFQyiOdcClKDyi_syY7unng=w530-h297-n">
+			<!--<img src="https://lh3.googleusercontent.com/proxy/CI3EefSviqjC6lh3eQ6bBk6aqs2fc8shen6aU65A2V7JjfH2bVoJUCVNO2Phz6ix_0iLFQyiOdcClKDyi_syY7unng=w530-h297-n">
 		</p>
-
+		-->
 		<!-- <p class="secondary">Second paragraph, but it has different attributes </p> -->
 
 		<!-- <p id="special">Special paragraph</p> -->
@@ -106,7 +184,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
 	</body>
-
+	
 	<footer>&copy; 2018 Sterling Finn (Web Developer)</footer>
 
 </html>

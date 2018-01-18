@@ -1,16 +1,18 @@
 header {
-	background-image: url("file:///C:/Users/sterling/Pictures/hearst.JPG");
+	background: CadetBlue;
 	color:white;
 	margin: 0;
 	padding: 15px 15px 0 15px;
 }
+
+
 
 body {
 	
 	margin: 0;
 	padding: 0;
 	background:orange;
-	font-family:arial;
+	font-family:Helvetica;
 }
 
 header h1 {
@@ -19,24 +21,13 @@ header h1 {
 	background:black;
 }
 
-nav ul{
+nav{
 	margin: 0;
 	padding:0 0 0 15px;
 	display: inline;
+	background:black;
 }
 
-nav ul li {
-	background: #999;
-	color:white;
-	list-style-type: none;
-	display: inline-block;
-	padding: 5px 15px;
-	margin: 0;
-}
-
-nav ul li a {
-	color: white;
-}
 
 p{
 	background:#333;
@@ -44,7 +35,10 @@ p{
 	padding: 30px 0px 300px 50px;
 }
 
+.jumbotron {
+	background: CadetBlue;
 
+}
 
 .darkBG {
 	background:red;
@@ -58,22 +52,8 @@ p{
 	background:pink;
 }
 
-.secondary {
-	background:black;
-	color:green:
 
-}
 
-li {
-	background:green;
-	color:red;
-	padding: 5px 20px 30px 40px;
-}
-
-#special {
-	background:#888;
-	color:red;
-}
 
 .row {
 	clear:both;
