@@ -1,12 +1,58 @@
+header {
+	background:#999;
+	color:white;
+	margin: 0;
+	padding: 15px 15px 0 15px;
+}
+
 body {
+	margin: 0;
+	padding: 0;
 	background:#999;
 	font-family:arial;
 }
-p{
 
+header h1 {
+	margin: 0;
+	display: inline;
+	background:black;
+}
+
+nav ul{
+	margin: 0;
+	padding:0 0 0 15px;
+	display: inline;
+}
+
+nav ul li {
+	background: #999;
+	color:white;
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px 15px;
+	margin: 0;
+}
+
+nav ul li a {
+	color: white;
+}
+
+p{
 	background:#333;
 	color:white;
 	padding: 30px 0px 300px 50px;
+}
+
+.darkBG {
+	background:red;
+}
+
+.darkerBG {
+	background:yellow;
+}
+
+.darkestBG {
+	background:pink;
 }
 
 .secondary {
@@ -24,4 +70,22 @@ li {
 #special {
 	background:#888;
 	color:red;
+}
+
+.row {
+	clear:both;
+}
+
+.col {
+	float: left;
+	border-radius: 5px;
+	padding: 10px .5%;
+	margin: .5%;
+	background:blue;
+	width: 31%;
+	color:white;
+}
+
+footer {
+	clear:both;
 }
