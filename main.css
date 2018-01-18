@@ -1,8 +1,8 @@
 header {
-	background: CadetBlue;
+	background:red;
 	color:white;
 	margin: 0;
-	padding: 15px 15px 0 15px;
+	
 }
 
 
@@ -11,8 +11,8 @@ body {
 	
 	margin: 0;
 	padding: 0;
-	background:orange;
-	font-family:Helvetica;
+	background-image: url("C:\Users\sterling\Desktop\sefinn.github.io\castle.jpg");
+	font-family:"helvetica";
 }
 
 header h1 {
@@ -25,9 +25,13 @@ nav{
 	margin: 0;
 	padding:0 0 0 15px;
 	display: inline;
-	background:black;
+	background:red;
 }
 
+
+.navbar {
+	background:red;
+}
 
 p{
 	background:#333;
