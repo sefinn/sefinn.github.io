@@ -1,17 +1,16 @@
 header {
-	background:red;
+	background:LightSeaGreen;
 	color:white;
 	margin: 0;
 	
 }
 
 
-
 body {
 	
 	margin: 0;
 	padding: 0;
-	background-image: url("C:\Users\sterling\Desktop\sefinn.github.io\castle.jpg");
+	background:lavender;
 	font-family:"helvetica";
 }
 
@@ -25,37 +24,25 @@ nav{
 	margin: 0;
 	padding:0 0 0 15px;
 	display: inline;
-	background:red;
+	background:CadetBlue;
 }
 
 
 .navbar {
-	background:red;
+	background:LightSeaGreen;
+	
 }
 
 p{
-	background:#333;
-	color:white;
+	background:lavender;
+	
 	padding: 30px 0px 300px 50px;
 }
 
 .jumbotron {
-	background: CadetBlue;
+	background: lavender;
 
 }
-
-.darkBG {
-	background:red;
-}
-
-.darkerBG {
-	background:yellow;
-}
-
-.darkestBG {
-	background:pink;
-}
-
 
 
 
@@ -76,3 +63,8 @@ p{
 footer {
 	clear:both;
 }
+
+#castle {
+	margin:40px;
+}
+
