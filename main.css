@@ -28,8 +28,13 @@ nav{
 }
 
 
+
+
 .navbar {
 	background:LightSeaGreen;
+	position: fixed;
+	top: 0;
+	width: 100%
 	
 }
 
@@ -41,10 +46,13 @@ p{
 
 .jumbotron {
 	background: lavender;
-
+	text-align: center;
 }
 
-
+.dropdown-menu {
+	margin :  8px 0 0 0;
+	background:lavender;
+}
 
 .row {
 	clear:both;
