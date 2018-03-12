@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/shasta.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -332,78 +332,91 @@ ul#nav li.current a { color: #F06000; }
 }
 .cc {
   	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+  	-moz-animation: cc 2s ease;
+  	-webkit-animation: cc 2s ease;
 }
 .java {
   	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+  	-moz-animation: java 2s ease;
+  	-webkit-animation: java 2s ease;
 }
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+.web {
+    width: 80%;
+    -moz-animation: html5 2s ease;
+    -webkit-animation: html5 2s ease;
 }
-.html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+.python {
+    width: 80%;
+    -moz-animation: python 2s ease;
+    -webkit-animation: python 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.nodejs {
+    width: 80%;
+    -moz-animation: nodejs 2s ease;
+    -webkit-animation: nodejs 2s ease;
+}
+.aws {
+    width: 80%;
+    -moz-animation: aws 2s ease;
+    -webkit-animation: aws 2s ease;
 }
 
 @-moz-keyframes c {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes illustrator {
+@-moz-keyframes cc {
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes java {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
+@-moz-keyframes web {
+    0%   { width: 0px;  }
+    100% { width: 80%;  }
 }
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
+@-moz-keyframes python {
+    0%   { width: 0px;  }
+    100% { width: 50%;  }
 }
-@-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+@-moz-keyframes nodejs {
+    0%   { width: 0px;  }
+    100% { width: 50%;  }
+}
+@-moz-keyframes aws {
+    0%   { width: 0px;  }
+    100% { width: 50%;  }
 }
 
 @-webkit-keyframes c {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes illustrator {
+@-webkit-keyframes cc {
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-webkit-keyframes wordpress {
+@-webkit-keyframes java {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
+@-webkit-keyframes web {
+    0%   { width: 0px;  }
+    100% { width: 80%;  }
 }
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
+@-webkit-keyframes python {
+    0%   { width: 0px;  }
+    100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+@-webkit-keyframes nodejs {
+    0%   { width: 0px;  }
+    100% { width: 80%;  }
+}
+@-webkit-keyframes aws {
+    0%   { width: 0px;  }
+    100% { width: 80%;  }
 }
 
 /* ------------------------------------------------------------------ */
