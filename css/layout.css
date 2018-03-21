@@ -331,7 +331,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: c 2s ease;
 }
 .cc {
-  	width: 55%;
+  	width: 65%;
   	-moz-animation: cc 2s ease;
   	-webkit-animation: cc 2s ease;
 }
@@ -341,22 +341,22 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: java 2s ease;
 }
 .web {
-    width: 80%;
+    width: 60%;
     -moz-animation: html5 2s ease;
     -webkit-animation: html5 2s ease;
 }
 .python {
-    width: 80%;
+    width: 30%;
     -moz-animation: python 2s ease;
     -webkit-animation: python 2s ease;
 }
 .nodejs {
-    width: 80%;
+    width: 45%;
     -moz-animation: nodejs 2s ease;
     -webkit-animation: nodejs 2s ease;
 }
 .aws {
-    width: 80%;
+    width: 50%;
     -moz-animation: aws 2s ease;
     -webkit-animation: aws 2s ease;
 }
@@ -367,7 +367,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes cc {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 65%;  }
 }
 @-moz-keyframes java {
   0%   { width: 0px;  }
@@ -375,15 +375,15 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes web {
     0%   { width: 0px;  }
-    100% { width: 80%;  }
+    100% { width: 60%;  }
 }
 @-moz-keyframes python {
     0%   { width: 0px;  }
-    100% { width: 50%;  }
+    100% { width: 30%;  }
 }
 @-moz-keyframes nodejs {
     0%   { width: 0px;  }
-    100% { width: 50%;  }
+    100% { width: 45%;  }
 }
 @-moz-keyframes aws {
     0%   { width: 0px;  }
@@ -396,7 +396,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes cc {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 65%;  }
 }
 @-webkit-keyframes java {
   0%   { width: 0px;  }
@@ -404,19 +404,19 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes web {
     0%   { width: 0px;  }
-    100% { width: 80%;  }
+    100% { width: 60%;  }
 }
 @-webkit-keyframes python {
     0%   { width: 0px;  }
-    100% { width: 80%;  }
+    100% { width: 30%;  }
 }
 @-webkit-keyframes nodejs {
     0%   { width: 0px;  }
-    100% { width: 80%;  }
+    100% { width: 45%;  }
 }
 @-webkit-keyframes aws {
     0%   { width: 0px;  }
-    100% { width: 80%;  }
+    100% { width: 50%;  }
 }
 
 /* ------------------------------------------------------------------ */
